@@ -1,0 +1,41 @@
+Arguments: 
+  /home/radames/.nvm/versions/node/v16.17.0/bin/node /home/radames/.nvm/versions/node/v16.17.0/bin/yarn add release-it @release-it/conventional-changelog @commitlint/config-coventional @commitlint/cli --include=dev
+
+PATH: 
+  /usr/lib/jvm/jdk-11/bin:/home/radames/.vscode-server/bin/5e805b79fcb6ba4c2d23712967df89a089da575b/bin/remote-cli:/usr/lib/jvm/jdk-11/bin:/home/radames/.nvm/versions/node/v16.17.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/jmeter/apache-jmeter-5.4.3/bin:/mnt/c/Program Files/dotnet/:/mnt/c/gradle/bin:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Users/radames.silva/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/radames.silva/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/radames.silva/AppData/Local/hyper/app-3.0.2/resources/bin:/mnt/c/Users/radames.silva/AppData/Roaming/npm:/mnt/c/Users/radames.silva/AppData/Local/Android/Sdk/platform-tools:/home/radames/.yarn/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  16.17.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/@commitlint%2fconfig-coventional: Not found
+      at Request.params.callback [as _callback] (/home/radames/.nvm/versions/node/v16.17.0/lib/node_modules/yarn/lib/cli.js:66145:18)
+      at Request.self.callback (/home/radames/.nvm/versions/node/v16.17.0/lib/node_modules/yarn/lib/cli.js:140890:22)
+      at Request.emit (node:events:513:28)
+      at Request.<anonymous> (/home/radames/.nvm/versions/node/v16.17.0/lib/node_modules/yarn/lib/cli.js:141862:10)
+      at Request.emit (node:events:513:28)
+      at IncomingMessage.<anonymous> (/home/radames/.nvm/versions/node/v16.17.0/lib/node_modules/yarn/lib/cli.js:141784:12)
+      at Object.onceWrapper (node:events:627:28)
+      at IncomingMessage.emit (node:events:525:35)
+      at endReadableNT (node:internal/streams/readable:1358:12)
+      at processTicksAndRejections (node:internal/process/task_queues:83:21)
+
+npm manifest: 
+  {
+    "name": "releaseit_teste",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
