@@ -13,7 +13,9 @@ yarn add  husky --include=dev
 ./node_modules/husky/lib/bin.js install
 
 touch .husky/commit-msg && chmod a+x .husky/commit-msg
+yarn run commitlint --edit
 
+git commit -m "feat: start use release it on project"
 git commit -a
 
 run release
