@@ -18,4 +18,9 @@ yarn run commitlint --edit
 git commit -m "feat: start use release it on project"
 git commit -a
 
-run release
+yarn run release
+
+? Commit (chore: release v1.1.0)? Yes
+? Tag (1.1.0)? Yes
+? Push? Yes
+? Create a release on GitLab (Release 1.1.0)? Yes
