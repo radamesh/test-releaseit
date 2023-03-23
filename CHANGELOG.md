@@ -1,5 +1,7 @@
 
 
+## [1.6.1](https://github.com/radamesh/test-releaseit/compare/1.6.0...1.6.1) (2023-03-23)
+
 ## 1.6.0 (2023-03-23)
 
 
