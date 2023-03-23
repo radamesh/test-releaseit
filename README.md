@@ -24,3 +24,21 @@ yarn run release
 ? Tag (1.1.0)? Yes
 ? Push? Yes
 ? Create a release on GitLab (Release 1.1.0)? Yes
+
+
+npm install --save-dev @release-it/bumper
+yarn add --save-dev @release-it/bumper
+
+
+"plugins": {
+  "@release-it/bumper": {
+    "in": {
+      "file": "VERSION",
+      "type": "text/plain"
+    },
+    "out": {
+      "file": "VERSION",
+      "type": "text/plain"
+    }
+  }
+}
